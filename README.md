@@ -1,6 +1,14 @@
+<h1 align="center">
+  <br>
+  <a href="https://github.com/SmokieTheDEV/ZeyroxBot"><img src="https://cdn.discordapp.com/attachments/744514075362459678/746638849664352297/IMG_20200822_132606.png" alt="Zeyrox bot "></a>
+  <br>
+  Zeyrox bot
+  <br>
+</h1>
 # ZeyroxBot
 🤖A multifunctional discord bot developed by Paras and joker . It is a powerful discord bot used by over 100K people and 200+ servers .it's consists of many commands over 100+ like Moderation,fun,NSFw,and more.
 # Zeyrox
+Donate vortex / jagrosh .
 [![GitHub stars](https://img.shields.io/github/stars/jagrosh/Vortex.svg?style=social&label=Stars&style=flat)](https://github.com/jagrosh/Vortex/stargazers)
  [![GuildCount](https://img.shields.io/badge/dynamic/json.svg?label=servers&url=https%3A%2F%2Fdiscord.bots.gg%2Fapi%2Fv1%2Fbots%2F240254129333731328&query=%24.guildCount&colorB=71A2B1)](https://discord.bots.gg/bots/240254129333731328)
  [![GitHub license](https://img.shields.io/github/license/jagrosh/Vortex.svg)](https://github.com/jagrosh/Vortex/blob/master/LICENSE)
