@@ -5,7 +5,7 @@
   Zeyrox bot
   <br>
 </h1>
-# ZeyroxBot
+## ZeyroxBot
 🤖A multifunctional discord bot developed by Paras and joker . It is a powerful discord bot used by over 100K people and 200+ servers .it's consists of many commands over 100+ like Moderation,fun,NSFw,and more.
 # Zeyrox
 
