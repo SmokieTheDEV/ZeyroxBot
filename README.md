@@ -8,16 +8,6 @@
 # ZeyroxBot
 🤖A multifunctional discord bot developed by Paras and joker . It is a powerful discord bot used by over 100K people and 200+ servers .it's consists of many commands over 100+ like Moderation,fun,NSFw,and more.
 # Zeyrox
-Donate vortex / jagrosh .
-[![GitHub stars](https://img.shields.io/github/stars/jagrosh/Vortex.svg?style=social&label=Stars&style=flat)](https://github.com/jagrosh/Vortex/stargazers)
- [![GuildCount](https://img.shields.io/badge/dynamic/json.svg?label=servers&url=https%3A%2F%2Fdiscord.bots.gg%2Fapi%2Fv1%2Fbots%2F240254129333731328&query=%24.guildCount&colorB=71A2B1)](https://discord.bots.gg/bots/240254129333731328)
- [![GitHub license](https://img.shields.io/github/license/jagrosh/Vortex.svg)](https://github.com/jagrosh/Vortex/blob/master/LICENSE)
-[![Patreon](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/jagrosh) 
-[![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/vortex/badge)](https://www.codefactor.io/repository/github/jagrosh/vortex)
-<br>
-[![PrivacyPolicy](https://img.shields.io/badge/Privacy%20Policy--lightgrey.svg?style=social)](https://gist.github.com/jagrosh/f1df4441f94ca06274fa78db7cc3c526#privacy-policy)
-[![Support](https://discordapp.com/api/guilds/147698382092238848/widget.png?style=shield)](https://discord.gg/0p9LSGoRLu6Pet0k)
-
 
 ## Discord Bot
 Zeyrox is a bot designed to keep your server safe and your staff team organized. Its moderation and logging suite keep track of your members and keep your moderators accountable. Its auto-moderator capabilities also allow it to filter out certain types of behavior without need for human intervention, lightening the load on the staff team. Finally, Vortex is designed to be fast and easy to use.and this bot consists a variety of other commands like welcome,fun,NSFW,and other.
