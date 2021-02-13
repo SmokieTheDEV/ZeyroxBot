@@ -1,5 +1,10 @@
 Welcome to the ZeyroxBot wiki!
-<h1 align="center">
+# Self host
+first of all you will need a yt api key , and your bot id, your bot token , make a config.json and .env file in config file make a line with "prefix": "!" , 
+env 
+BOT_TOKEN=
+PREFIX=
+YT_API_KEY+
   <br>
   <a href="https://github.com/SmokieTheDEV/ZeyroxBot"><img src="https://cdn.discordapp.com/attachments/744514075362459678/746638849664352297/IMG_20200822_132606.png" alt="Zeyrox bot "></a>
   <br>
