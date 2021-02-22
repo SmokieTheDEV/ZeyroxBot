@@ -7,8 +7,6 @@ it offers (non-exhaustive list):
 *   😀 Commands made pleasant thanks to the many emojis
 *   🗳️ Support for Discordbots.org votes with rewards
 
-Atlanta also adds **a new mention** like @everyone and @here, the `@someone`, which allows you to pick a random member of the server!
-
 ### Many commands
 
 Bot has a lot of features, with **7 main categories**:
