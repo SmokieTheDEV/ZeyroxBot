@@ -1,10 +1,6 @@
-  <br>
-  <a href="https://github.com/SmokieTheDEV/ZeyroxBot"><img src="https://cdn.discordapp.com/attachments/744514075362459678/746638849664352297/IMG_20200822_132606.png" alt="Zeyrox 
-## Features
-
 ### Complete Bot
 
-Atlanta offers (non-exhaustive list):
+it offers (non-exhaustive list):
 *   ✉️ Support for commands in direct messages
 *   🇫🇷 Support for translations (illimited languages)
 *   ⚙️ Guild configuration (prefix, ignored channels, etc...)
@@ -30,3 +26,4 @@ Bot has a lot of features, with **7 main categories**:
 BOT_TOKEN=
 PREFIX=
 YT_API_KEY=`
+### Have a nice day :)
