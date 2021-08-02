@@ -20,7 +20,7 @@ module.exports = {
 <a:Right:743831162686013553>\`!!queue\` :- give list of queue songs
 <a:Right:743831162686013553>\`!!volume\` :- set volume 0 to 100
 
-[__**Support Server**__](https://discord.gg/f2bCxD5) 
+[__**Support Server**__](https://discord.gg/f2bCxD5)
 `
       )
       .setThumbnail(client.user.displayAvatarURL())

@@ -18,7 +18,7 @@
 
 **slowmode**-add slow mode to channel {h!slowmode <#channel>}
 
-**warn**-warns the mentioned user 
+**warn**-warns the mentioned user
 
 **warnings**-check the warnings id the mentioned user
 

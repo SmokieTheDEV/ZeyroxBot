@@ -10,9 +10,9 @@ module.exports = {
         category: "utility",
         aliases: ["haste"],
     run: async (client, message, args) => {
-      
+
       if(!args.join(" ")) return message.channel.send(`Write \`\`VALID\`\` text💖`);
-      
+
       hastebin(args.join(" "), { extension: 'rage' }).then(haste => {
     message.channel.send(haste);
 }).catch(error => {

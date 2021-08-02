@@ -9,7 +9,7 @@ module.exports = {
     if (message.guild.premiumTier === "Level 1") message.guild.premiumTier = "<:713173920475381830:734479841629437982> 1"
     if (message.guild.premiumTier === "Level 2") message.guild.premiumTier = "<:713173919418548257:734479792052764774> 2"
     if (message.guild.premiumTier === "Level 3") message.guild.premiumTier = "<:BoostLevel3:734479712029769849> 3"
-    
+
     if (message.guild.region === "india") message.guild.region = "🇮🇳 India"
     if (message.guild.region === "brazil") message.guild.region = "🇧🇷 Brazil"
     if (message.guild.region === "japan") message.guild.region = "🇯🇵 Japan"
@@ -23,13 +23,13 @@ module.exports = {
     if (message.guild.region === "us-west") message.guild.region = "🇺🇸 US West"
     if (message.guild.region === "us-central") message.guild.region = "🇺🇸US Central"
     if (message.guild.region === "us-south") message.guild.region = "🇺🇸 US South"
-    
+
       let boostlevel = message.guild.premiumTier
-    
+
     let aicon = message.author.avatarURL({ dynamic: true, size: 2048 });
 
     let sicon = message.guild.iconURL({ dynamic: true, size: 2048 });
-    
+
     let embed = new discord.MessageEmbed()
       .setTitle(message.guild)
       .setDescription(
@@ -59,12 +59,12 @@ ${message.guild.emojis.cache.size}
 ${message.guild.createdAt}
 
 > <a:Right:743831162686013553>**SERVER BOOST**
-${message.guild.premiumSubscriptionCount} 
+${message.guild.premiumSubscriptionCount}
 
 > <a:Right:743831162686013553>**BOOST LEVEL**
-${boostlevel} 
+${boostlevel}
 
-> <a:Right:743831162686013553>**Security** 
+> <a:Right:743831162686013553>**Security**
 ${message.guild.verificationLevel}
 `)
       .setThumbnail(message.guild.iconURL())
