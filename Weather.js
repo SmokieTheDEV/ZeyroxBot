@@ -16,9 +16,9 @@ module.exports = {
 
   run: (client, message, args) => {
 
-    
 
-    
+
+
 
     if(!args.length) {
 
@@ -26,13 +26,13 @@ module.exports = {
 
     }
 
-    
+
 
  weather.find({search: args.join(" "), degreeType: 'C'}, function(err, result) {
 
 try {
 
- 
+
 
 let embed = new discord.MessageEmbed()
 
@@ -64,11 +64,11 @@ let embed = new discord.MessageEmbed()
 
 }
 
-});   
+});
 
     //LETS CHECK OUT PKG
 
-    
+
 
   }
 

@@ -11,16 +11,16 @@ it offers (non-exhaustive list):
 
 Bot has a lot of features, with **7 main categories**:
 
-*   👩‍💼 **Administration** 
+*   👩‍💼 **Administration**
 *   🚓 **Moderation**
 *   🎵 **Music**
 *   💰 **Economy**
 *   👻 **Fun**
-*   🖨️ **General** 
+*   🖨️ **General**
 *   👑 **Owner**:
 ### Self host
-* First of all you will need a yt api key , and your bot id, your bot token , make a config.json and .env file in config file make a line with "prefix": "!" , 
-`env 
+* First of all you will need a yt api key , and your bot id, your bot token , make a config.json and .env file in config file make a line with "prefix": "!" ,
+`env
 BOT_TOKEN=
 PREFIX=
 YT_API_KEY=`

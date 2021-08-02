@@ -9,11 +9,11 @@ module.exports = {
   category: "moderation",
   description: "Disable welcome message",
   run: async (client, message, args) => {
-    
+
     if (!message.member.hasPermission("ADMINISTRATOR")) {
       return message.reply("You don't have enough powers");
     }
-    
+
     db.delete(`join_${message.guild.id}`)
     message.channel.send('Disabled Welcome Message')
   }

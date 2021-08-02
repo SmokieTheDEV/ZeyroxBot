@@ -4,8 +4,8 @@ module.exports = {
   category: "moderation",
   description: "Delete bulk messages with 1 command",
   run: async (client, message, args) => {
-    
-            
+
+
     if (message.deletable) {
         message.delete();
     }
@@ -27,6 +27,6 @@ module.exports = {
 
     message.channel.bulkDelete(deleteAmount, true)
     .catch(err => message.reply(`Something went wrong... ${err}`));
-    
+
   }
 }

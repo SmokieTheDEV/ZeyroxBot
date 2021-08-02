@@ -54,37 +54,37 @@ client.on("message", async message => {
 
 client.on("guildMemberAdd", async (member) => {
   let chx = db.get(`welchannel_${member.guild.id}`);
-  
+
   if(chx === null) {
     return;
   }
-  
+
   let default_url = `https://cdn.discordapp.com/attachments/696417925418057789/716197399336583178/giphy.gif`
-  
+
   let default_msg = `━━━━━━━━━━━━━━━━━━━━━━━━
   | WELCOME ${member} TO ${member.guild}
-        
+
 ━━━━━━━━━━━━━━━━━━━━━━━━
- | BE SURE THAT YOU HAVE READ    
+ | BE SURE THAT YOU HAVE READ
            |RULES
 ━━━━━━━━━━━━━━━━━━━━━━━━
- | USERNAME ${member.username}  
+ | USERNAME ${member.username}
 |RANK is ${member.member_count}  ━━━━━━━━━━━━━━━━━━━━━━━━
- | YOU CAN ENJOY IN  CHATTING 
+ | YOU CAN ENJOY IN  CHATTING
 ━━━━━━━━━━━━━━━━━━━━━━━━
             THANKS FOR JOINING US
 `
-  
+
   let m1 = db.get(`msg_${member.guild.id}`)
 
 const msg = m1.replace("{member}", member.user).replace("{member.guild}", member.guild).replace("(:HEART)",`<a:BH:731369456634429493>`)
 
-  
+
   let url = db.get(`url_${member.guild.id}`)
   if(url === null) url = default_url
-  
+
    let data = await canva.welcome(member, { link: "https://wallpapercave.com/wp/wp5128415.jpg" })
- 
+
     const attachment = new discord.MessageAttachment(
       data,
       "welcome-image.png"
@@ -96,7 +96,7 @@ const msg = m1.replace("{member}", member.user).replace("{member.guild}", member
   .setColor("RANDOM")
   .setImage()
   .setDescription(msg);
-  
+
   client.channels.cache.get(chx).send(wembed)
   client.channels.cache.get(chx).send(attachment)
 })

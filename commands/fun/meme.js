@@ -6,9 +6,9 @@ module.exports = {
   category: "fun",
   description: "Get some fun memes",
   run: async (client, message, args) => {
-    
+
     let data = await random.getMeme()
     message.channel.send(data)
-    
+
   }
 }

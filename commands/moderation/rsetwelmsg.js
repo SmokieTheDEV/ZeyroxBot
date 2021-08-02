@@ -12,9 +12,9 @@ module.exports = {
     if(!message.member.hasPermission("ADMINISTRATOR")) {
       return message.channel.send("You don't enough powers")
     }
-    
+
       db.delete(`msg_${message.guild.id}`)
      return await message.channel.send("Reseted Welcome Message ✅")
     }
-    
+
 }

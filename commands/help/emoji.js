@@ -5,7 +5,7 @@ module.exports = {
   category: "info",
   description: "INVITE BOT",
   run: async (client, message, args) => {
-  
+
     try {
         let notAnimated = [];
         let animated = [];
@@ -19,6 +19,6 @@ module.exports = {
       } catch (err) {
         message.channel.send('Their was an error!\n' + err).catch();
       }
-      
+
 }
 };
